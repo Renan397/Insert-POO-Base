@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+html{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Shippori Antique B1', sans-serif;
+    text-align: justify;
+    background-color: #fffffa;
+    display: flex;
+    display: -webkit-flex;
+    flex-direction: column;
+    -webkit-flex-direction: column;
+    height: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+} 
+
+#entrada {
+    padding-top: 50px;
+    width: 30%;
+}
+#titulo_entrada {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px #3CB371 solid; 
+    padding-bottom: 10px;
+}
+.txt_entrada {
+    text-align: center;
+    font-size: 18px;
+}
+
+.form-control {
+    border: 1px solid #2E8B57;
+}
+
+#form {
+    border: 3px solid #2E8B57;
+    border-radius: 5%;
+    padding: 70px;
+}
+
+#titulo_form {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 3px dashed #3CB371; 
+    padding-bottom: 10px;
+    width: 35%;
+}
+
+#bttn_registrar {
+    transition: 0.5s;
+}
+    
+#bttn_registrar:hover {
+    transform: scale(1.1);
+}
+
+/* Rodapé */
+.img_footer {
+    width: 50px;
+    height: 50px;
+}
+
+.img_LogoFooter {
+    width: 250px;
+    height: 250px;
+}
+
+#myFooter {
+    background-color: #2E8B57;
+    color: white;
+    padding-top: 30px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #3CB371;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+}
+
+#myFooter .row {
+    margin-bottom: 60px;
+}
+
+#myFooter .navbar-brand {
+    margin-top: 45px;
+    height: 65px;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #e0e0e0;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+#myFooter h5 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+#myFooter h2 a {
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+#myFooter a {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: white;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 16px;
+}
+
+#myFooter .social-networks a {
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+#myFooter .social-networks a:hover {
+    text-decoration: none;
+}
+
+#myFooter .btn {
+    color: white;
+    background-color: #d84b6b;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+};
