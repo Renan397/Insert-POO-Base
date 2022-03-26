@@ -57,7 +57,7 @@ echo "<center><br><br><div class='alert alert-success' style='width: 50%;' role=
 }
 }
 else {
-    echo "<center><br><br><div class='alert alert-success' style='width: 50%;' role='alert'>Nenhuma requisição foi feita!</div>
+    echo "<center><br><br><div class='alert alert-danger' style='width: 50%;' role='alert'>Nenhuma requisição foi feita!</div>
     <button style='background-color: #3CB371;' id='bttn_voltar' onclick='voltarHome()' class='btn btn-primary'>Voltar</button>
     <center>";
 }
