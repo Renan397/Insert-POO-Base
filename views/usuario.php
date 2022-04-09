@@ -29,15 +29,7 @@ $datanasc = $_REQUEST['datanasc'];
 $telefone = $_REQUEST['telefone'];
 
 include_once "../classes/Usuario.class.php";
-$usuario = new Usuario();
-
-//Setters
-$usuario->setEmail($email);
-$usuario->setSenha($pass);
-$usuario->setNome($name);
-$usuario->setCpf($cpf);
-$usuario->setDatanasc($datanasc);
-$usuario->setTelefone($telefone);
+$usuario = new Usuario("$email", "$pass", "$name", "$cpf", "$datanasc", "$telefone");
 
 //Inserção no Banco de dados
 $resultSet  = $DBConn->query($usuario->saveUser());

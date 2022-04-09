@@ -9,6 +9,15 @@ class Usuario {
     private $cpf;
     private $datanasc;
     private $telefone;
+
+    public function __construct($email, $senha, $nome, $cpf, $datanasc, $telefone) {
+        $this->setEmail($email);
+        $this->setSenha($senha);
+        $this->setNome($nome);
+        $this->setCpf($cpf);
+        $this->setDatanasc($datanasc);
+        $this->setTelefone($telefone);
+    }
     
     public function getEmail(){
         return $this->email;
